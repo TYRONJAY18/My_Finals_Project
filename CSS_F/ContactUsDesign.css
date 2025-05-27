@@ -1,0 +1,131 @@
+/* The Body Design */
+body, html {
+  height: 100%;
+  margin: 10;
+  font-family: Arial;
+  text-align: center;
+}
+/* top Selection Button */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* top selection changing color */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* top selection pointer */
+.pill-nav a.active {
+  color: black;
+}
+/* top title */
+header h1{
+  float: right;
+  padding-right: 10px;
+}
+/* table Form */
+.contact-form {
+  background: lightgray;
+  padding: 25px;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 25px 20px 42px 5px rgba(0,0,0,0.63);
+  -webkit-box-shadow: 25px 20px 42px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 25px 20px 42px 5px rgba(0,0,0,0.63);
+}
+/* Form Title */
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* textBox */
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+/* textbox align */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+/* table button */
+.contact-form button {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* color changuing button */
+.contact-form button:hover {
+  background-color: #218838;
+}
+/* Buttom Selection Menu */
+.buttom a{
+  text-align: center;
+  font-size: 17px;
+  background: white;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+/* pointer color */
+.buttom a:visited {
+  color: black;
+}
+/* pointer changing color */
+.buttom a:hover {
+  color: gray;
+}
+/* facebook icon */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}

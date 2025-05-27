@@ -1,0 +1,175 @@
+/* The Body Design */
+body, html {
+  height: 100%;
+  margin: 10;
+  font-family: Arial;
+  text-align: center;
+}
+/* top Selection Button */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* top selection Changing Color */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* top selection pointer Color */
+.pill-nav a.active {
+  color: black;
+}
+/* top title */
+header h1{
+  float: right;
+  padding-right: 10px;
+}
+/* picture Intro */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 120px;
+}
+/* picture text */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* Box sizing */
+* {
+  box-sizing: border-box;
+}
+
+.R1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.R1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.R1:hover img{
+  transform: scale(1.5);
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.M1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.M1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.M1:hover img{
+  transform: scale(1.5);
+}
+.F1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.F1 img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.F1:hover img{
+  transform: scale(1.5);
+}
+.B1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.B1 img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.B1:hover img{
+  transform: scale(1.5);
+}
+.P1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.P1 img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.P1:hover img{
+  transform: scale(1.5);
+}
+.L1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.L1 img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: 0.5s;
+}
+.L1:hover img{
+  transform: scale(1.5);
+}
+/* Buttom Selection Menu */
+.buttom a{
+  text-align: center;
+  font-size: 17px;
+  background: white;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+/* pointer color */
+.buttom a:visited {
+  color: black;
+}
+/* pointer changing color */
+.buttom a:hover {
+  color: gray;
+}

@@ -1,0 +1,285 @@
+/* The Body Design */
+body, html {
+  height: 100%;
+  margin: 10;
+  font-family: Arial;
+  text-align: center;
+}
+/* Home Text design */
+.home-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* home Text Anchor  */
+.home-text a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* Anchor Changing color */
+.home-text a:hover {
+     background: #034e88;
+    color: #fff;
+}
+/* top Selection Button */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* top selection Changing Color */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* top selection pointer Color */
+.pill-nav a.active {
+  color: black;
+}
+/* top title */
+header h1{
+  float: right;
+  padding-right: 10px;
+}
+/* intro image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* text image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* anchor button */
+.hero-text a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* anchor animation */
+.hero-text a:hover {
+  background: #034e88;
+  color: #fff;
+}
+/* Buttom Selection Menu */
+.buttom a{
+  text-align: center;
+  font-size: 17px;
+  background: white;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+/* pointer color */
+.buttom a:visited {
+  color: black;
+}
+/* pointer changing color */
+.buttom a:hover {
+  color: gray;
+}
+/* Colum image */
+.pic1{
+  padding-top: 40%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic1text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic1text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic1text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Colum image */
+.pic2{
+  padding-top: 75%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic2text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic2text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic2text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Colum image */
+.pic3{
+  padding-top: 40%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic3text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic3text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic3text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Colum image */
+.pic4{
+  padding-top: 65%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic4text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic4text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic4text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Colum image */
+.pic5{
+  padding-top: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic5text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic5text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic5text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Colum image */
+.pic6{
+  padding-top: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* image text */
+.pic6text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* image Anchor */
+.pic6text a{
+  background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* image changing color */
+.pic6text a:hover{
+  background: #034e88;
+    color: #fff;
+}
+/* Question and answer padding */
+.FAQ{
+  text-align: left;
+}
